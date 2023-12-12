@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "460637141183",
+    "project_id": "technom-438f6",
+    "storage_bucket": "technom-438f6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:460637141183:android:38f3c11c821e42259a2e0a",
+        "android_client_info": {
+          "package_name": "com.example.technom"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "460637141183-7vkp8gs8921mqh2493dnabebbbqvboul.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBSzCsKt2znvWyQ0zzQigarSPd6WTARuvM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "460637141183-7vkp8gs8921mqh2493dnabebbbqvboul.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
