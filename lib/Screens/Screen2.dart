@@ -1,22 +1,19 @@
 import 'package:flutter/material.dart';
 import 'package:file_picker/file_picker.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'Mostagadat.dart';
-import 'Galsat.dart';
+import 'Afterlogin/Mostagadat.dart';
+import 'Afterlogin/Galsat.dart';
 import '../Galasat_5obara2/G.5obara.dart';
-import 'Egra2at_Edarya.dart';
-import 'T72e2.dart';
+import 'Afterlogin/Egra2at_Edarya.dart';
+import 'Afterlogin/T72e2.dart';
 import '../Malia/Malia.dart';
-import 'Tar7el_al3mal.dart';
+import 'Afterlogin/Tar7el_al3mal.dart';
 import 'Profile.dart';
-import '../main.dart';
 import 'package:flutter_application_1/login.dart';
 import 'afterlogin.dart';
 
 
-void main() {
-  runApp(Screen2());
-}
+
 
 class Screen2 extends StatelessWidget {
   final String? enteredNumber;

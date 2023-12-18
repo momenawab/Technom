@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application_1/Screens/Screen2.dart';
+import 'Screens/Screen2.dart';
 import 'Screens/afterlogin.dart';
 import 'Screens/reset_password_page.dart';
 

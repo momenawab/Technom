@@ -1,10 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application_1/Screens/Screen2.1.dart';
+import 'package:flutter_application_1/Screens/Afterlogin/Edaret_A3mal.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'Screen2.dart';
-void main() {
-  runApp(mangement2());
-}
+import '../Screen2.dart';
+
 
 class mangement2 extends StatelessWidget {
   @override

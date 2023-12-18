@@ -1,9 +1,7 @@
 import 'package:flutter/material.dart';
-import 'afterlogin.dart';
+import '../afterlogin.dart';
 
-void main() {
-  runApp(Fat7file());
-}
+
 
 class Fat7file extends StatefulWidget {
   @override

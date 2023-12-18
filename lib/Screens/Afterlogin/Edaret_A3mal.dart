@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:file_picker/file_picker.dart';
-import 'package:flutter_application_1/Screens/tar7el2.dart';
+import 'package:flutter_application_1/Screens/Afterlogin/tar7el2.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 import 'package:flutter_application_1/login.dart';

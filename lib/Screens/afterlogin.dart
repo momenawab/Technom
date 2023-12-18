@@ -1,18 +1,16 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application_1/Screens/Mostagadat.dart';
-import 'package:flutter_application_1/Screens/Screen2.1.dart';
+import 'package:flutter_application_1/Screens/Afterlogin/Mostagadat.dart';
+
+import 'package:flutter_application_1/Screens/Afterlogin/Edaret_A3mal.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'Screen2.dart'; // Import the Screen2.dart file here
+import 'Screen2.dart';
 import '../main.dart';
-import 'Fat7_Malf.dart';
+import 'Afterlogin/Fat7_Malf.dart';
 import 'package:flutter_application_1/Task screen/mainn.dart';
 import 'package:flutter_application_1/login.dart';
 
 
 
-void main() {
-  runApp(afterlogin());
-}
 
 class afterlogin extends StatelessWidget {
   @override

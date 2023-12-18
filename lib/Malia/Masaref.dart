@@ -1,9 +1,7 @@
 import 'package:flutter/material.dart';
 import '../Screens/Screen2.dart';
 
-void main() {
-  runApp(const Masaref());
-}
+
 
 class Masaref extends StatelessWidget {
   const Masaref({Key? key}) : super(key: key);

@@ -2,9 +2,7 @@ import 'package:flutter/material.dart';
 import '../Galasat_5obara2/Add_5esm.dart';
 import '../Screens/Screen2.dart';
 
-void main() {
-  runApp(galasat());
-}
+
 
 class galasat extends StatelessWidget {
   @override

@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application_1/Screens/Screen2.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'Screens/Screen2.dart';
 import 'login.dart';

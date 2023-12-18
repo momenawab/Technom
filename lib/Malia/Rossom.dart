@@ -1,9 +1,6 @@
 import 'package:flutter/material.dart';
 import '../Screens/Screen2.dart';
 
-void main() {
-  runApp(const Rossomm());
-}
 
 class Rossomm extends StatelessWidget {
   const Rossomm({Key? key}) : super(key: key);

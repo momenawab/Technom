@@ -4,9 +4,7 @@ import 'package:google_fonts/google_fonts.dart';
 import '../Screens/Screen2.dart';
 import 'package:flutter_application_1/Malia/Rossom.dart';
 
-void main() {
-  runApp(const MyAppp());
-}
+
 
 
 

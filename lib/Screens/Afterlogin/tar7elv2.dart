@@ -1,12 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application_1/Screens/Screen2.1.dart';
+import 'package:flutter_application_1/Screens/Afterlogin/Edaret_A3mal.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'Screen2.dart';
-void main() {
-  runApp(mangement());
-}
+import '../Screen2.dart';
 
-class mangement extends StatelessWidget {
+
+class mangement3 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -59,40 +57,6 @@ class _ButtonRowState extends State<ButtonRow> {
   TextEditingController customTextController = TextEditingController();
   bool showCustomButton = false; // Track if the custom button should be shown
   bool isTextVisible = false;
-  DateTime selectedStartDate = DateTime.now();
-  DateTime selectedEndDate = DateTime.now();
-  DateTime _selectedDate = DateTime.now();
-  TimeOfDay _selectedTime = TimeOfDay.now();
-
-  Future<void> _selectDate(BuildContext context) async {
-    final DateTime? picked = await showDatePicker(
-      context: context,
-      initialDate: DateTime.now(),
-      firstDate: DateTime(2000),
-      lastDate: DateTime(2101),
-    );
-
-    if (picked != null && picked != _selectedDate) {
-      setState(() {
-        _selectedDate = picked;
-      });
-    }
-  }
-  Future<void> _selectTime(BuildContext context) async {
-    final TimeOfDay? pickedTime = await showTimePicker(
-      context: context,
-      initialTime: _selectedTime,
-    );
-
-    if (pickedTime != null && pickedTime != _selectedTime) {
-      setState(() {
-        _selectedTime = pickedTime;
-      });
-    }
-  }
-
-
-
 
   @override
   Widget build(BuildContext context) {
@@ -187,68 +151,21 @@ class _ButtonRowState extends State<ButtonRow> {
               children: [
 
                 SizedBox(height: 10),
-                Row(
-                  mainAxisAlignment: MainAxisAlignment.center,
-                  children:[
-                  ElevatedButton(
-                    style: ElevatedButton.styleFrom(
-                      primary: Colors.black,
-                      shape: RoundedRectangleBorder(
-                        borderRadius: BorderRadius.circular(30),
-                      ),
-                    ),
-                    onPressed: () async {
-                      final DateTime? pickedDate = await showDatePicker(
-                        context: context,
-                        initialDate: _selectedDate,
-                        firstDate: DateTime(2000),
-                        lastDate: DateTime(2101),
-                      );
-
-                      if (pickedDate != null && pickedDate != _selectedDate) {
-                        setState(() {
-                          _selectedDate = pickedDate;
-                        });
-                      }
-
-                      // Show the time picker
-                      await _selectTime(context);
-                    },
-                    child: Text('اختر التاريخ والوقت'),
-                  ),
-
-                    SizedBox(width: 20,),
-
-                    ElevatedButton(
-
-                    onPressed: (){},
-                    style: ElevatedButton.styleFrom(backgroundColor: Colors.black,
+                ElevatedButton(
+                  onPressed: () {
+                    // Handle the custom button press here
+                  },
+                  style: ElevatedButton.styleFrom(backgroundColor: Colors.black87,
                     shape: RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(30),
-                    ),),
-                    child:
-                Text('حفظ',)
-
+                    ),
+                  ),
+                  child: Text('حفظ'),
                 ),
-                    SizedBox(width: 20,),
-                    ElevatedButton(
-
-                        onPressed: (){},
-                        style: ElevatedButton.styleFrom(backgroundColor: Colors.black,
-                          shape: RoundedRectangleBorder(
-                            borderRadius: BorderRadius.circular(30),
-                          ),),
-                        child:
-                        Text('رفع ملف',)
-
-                    )
               ],
             ),
-              if (_selectedDate != null) Text(" التاريخ: ${_selectedDate.toString().split(' ')[0]} ",
-    textAlign: TextAlign.center,style: TextStyle(fontSize: 18,fontWeight: FontWeight.bold),)
-
-          ]),
-          )],
+          ),
+      ],
 
 
     );

@@ -1,10 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'Screen2.dart';
+import '../Screen2.dart';
 
-void main() {
-  runApp(Mange());
-}
+
 
 
 class Mange extends StatelessWidget {

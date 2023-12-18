@@ -2,9 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'Screen2.dart';
 
-void main() {
-  runApp(ProfileApp());
-}
+
 
 class ProfileApp extends StatelessWidget {
   @override
